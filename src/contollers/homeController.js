@@ -10,7 +10,6 @@ router.get('/', async (req, res) => {
             title: 'Home page',
             courses
         }
-        
         res.render('home/home', ctx)
     } catch (error) {
        res.redirect('/404');

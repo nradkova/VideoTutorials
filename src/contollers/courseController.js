@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 const preloadOne = require('../middlewares/preload');
-const { editUser } = require('../services/userService');
+//const { editUser } = require('../services/userService');
 const formatErrorMsg = require('../util/formatErrorMsg');
 const { isUser, isOwner } = require('../middlewares/guard');
 const { courseValidation } = require('../middlewares/validation');

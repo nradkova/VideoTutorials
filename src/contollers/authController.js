@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 const formatErrorMsg = require('../util/formatErrorMsg');
-const { getUserTrips, getUserCourses } = require('../services/userService');
+const {getUserCourses } = require('../services/userService');
 const { isGuest, isUser } = require('../middlewares/guard');
 const { userValidation } = require('../middlewares/validation');
 
